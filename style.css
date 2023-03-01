@@ -4,7 +4,8 @@ html, body{
     margin: 0;
     padding:0;
     width: 100%;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
 }
 
 .hero{
@@ -115,4 +116,30 @@ header .link{
 
 .main .info_card p {
     margin-top: 10px;
+}
+
+/* Section Testimony */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote p{
+    width: 850px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.quote p:nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: end;
+    margin-top: 0;
 }
