@@ -80,3 +80,39 @@ header .link{
     flex-grow: 1;
     margin: 40px;
 }
+
+/* Section Info */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px 90px 40px;
+}
+
+.main h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.main .main_info{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.main .info_card{
+    width: 150px;
+    
+}
+
+.main .info_img{
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.main .info_card p {
+    margin-top: 10px;
+}
