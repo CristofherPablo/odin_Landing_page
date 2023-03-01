@@ -143,3 +143,40 @@ header .link{
     text-align: end;
     margin-top: 0;
 }
+
+/* Section Call to action */
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.action .action_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.action .action_content h2{
+    margin-bottom: 0px;
+}
+
+.action .action_content p{
+    margin-top: 0px;
+}
+
+.action button {
+    border: 3px solid  #e5e7eb;
+    color:  #e5e7eb;
+    background-color: #3882f6;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+}
