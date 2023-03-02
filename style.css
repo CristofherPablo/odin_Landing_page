@@ -82,6 +82,10 @@ header .link{
     margin: 40px;
 }
 
+.hero_image img{
+    width: 530px;
+}
+
 /* Section Info */
 
 .main {
@@ -112,6 +116,12 @@ header .link{
     border: 5px solid #3882f6;
     border-radius: 20px;
     height: 150px;
+}
+
+.main .info_img img{
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
 }
 
 .main .info_card p {
